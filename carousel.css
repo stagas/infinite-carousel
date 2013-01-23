@@ -1,3 +1,4 @@
+
 .carousel {
   overflow: hidden;
   position: relative;
@@ -45,4 +46,3 @@
   left: 100%;
   z-index: -10;
 }
-
