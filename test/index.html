@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>infinite-carousel</title>
+    <link rel="stylesheet" href="../build/build.css">
+    <style>
+    .carousel {
+      width: 400px;
+    }
+    .carousel li {
+      transition: .4s all ease;     
+      -webkit-transition: .4s all ease;     
+      -moz-transition: .4s all ease;     
+      -o-transition: .4s all ease;     
+    }
+    </style>
+  </head>
+  <body>
+    <button id="prev">prev</button>
+    <button id="next">next</button>
+    <div id="carousel">
+      <ul>
+        <li><img src="http://placekitten.com/200/200">
+        <li><img src="http://placekitten.com/150/250">
+        <li><img src="http://placekitten.com/120/170">
+        <li><img src="http://placekitten.com/130/230">
+        <li><img src="http://placekitten.com/100/250">
+        <li><img src="http://placekitten.com/200/150">
+      </ul>
+    </div>
+    <script src="../build/build.js"></script>
+    <script>
+      var carousel = require('infinite-carousel')(document.getElementById('carousel'))
+      document.getElementById('next').onclick = function () {
+        carousel.next();
+      }
+      document.getElementById('prev').onclick = function () {
+        carousel.prev();
+      }
+    </script>
+  </body>
+</html>
