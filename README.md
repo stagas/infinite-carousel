@@ -31,6 +31,19 @@ Show next item.
 
 Show previous item.
 
+## Protip
+
+For a slide effect use this in your css:
+
+```css
+.carousel li {
+  transition: .4s all ease;
+  -webkit-transition: .4s all ease;
+  -moz-transition: .4s all ease;
+  -o-transition: .4s all ease;
+}
+```
+
 ## Credits
 
 This is a modified version of [tomerdmnt/carousel](https://github.com/tomerdmnt/carousel) (MIT)
