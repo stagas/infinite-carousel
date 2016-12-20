@@ -1,0 +1,26 @@
+{
+  "name": "infinite-carousel",
+  "version": "0.0.1",
+  "description": "infinite carousel",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/stagas/infinite-carousel.git"
+  },
+  "keywords": [
+    "carousel",
+    "slider"
+  ],
+  "author": "stagas",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/stagas/infinite-carousel/issues"
+  },
+  "homepage": "https://github.com/stagas/infinite-carousel#readme"
+}
